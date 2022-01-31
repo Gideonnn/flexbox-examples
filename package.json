@@ -1,0 +1,13 @@
+{
+  "name": "flexbox-examples",
+  "version": "1.0.0",
+  "description": "Some examples showing css flexbox",
+  "author": "Gideon Spierings",
+  "license": "WTFPL",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
