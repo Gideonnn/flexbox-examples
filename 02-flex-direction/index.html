@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>02 Flex Direction</title>
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
       .item {
-        height: 50px;
-        width: 50px;
+        font-size: 30px;
       }
 
       .red {
@@ -24,15 +29,16 @@
       }
 
       .container {
-        background: purple;
+        border: 5px solid purple;
+        background: lavender;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="item red"></div>
-      <div class="item green"></div>
-      <div class="item blue"></div>
+      <div class="item red">Red</div>
+      <div class="item green">Green</div>
+      <div class="item blue">Blue</div>
     </div>
   </body>
 </html>
